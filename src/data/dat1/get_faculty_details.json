@@ -1,0 +1,335 @@
+{
+  "ShreeDeviEducationTrust": {
+    "Name": "Shree Devi Education Trust (R.)",
+    "Location": "M.G. Road, Mangalore",
+    "MainPeople": [
+      {
+        "Role": "Chairman",
+        "Name": "Sri. A. Sadananda Shetty"
+      },
+      {
+        "Role": "Vice-Chairman",
+        "Name": "Sri. Nidhish S. Shetty"
+      },
+      {
+        "Role": "Secretary",
+        "Name": "Smt. Maina S. Shetty"
+      },
+      {
+        "Role": "Trustee",
+        "Name": "Sri. Nikshep S. Shetty"
+      },
+      {
+        "Role": "Trustee",
+        "Name": "Smt. Priyanka N. Shetty"
+      }
+    ],
+    "Campuses": [
+      {
+        "CampusName": "Kenjar Campus",
+        "Address": "Airport Road, Kenjar, Mangalore – 574 142",
+        "Colleges": [
+          {
+            "CollegeName": "Shree Devi Institute of Technology (SDIT)",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Dr. Dilip Kumar K"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "Computer Science & Engineering (BE)",
+                "FacultyNote": "Faculty details for this department are not fully listed in the dataset.",
+                "Faculty (from Web Search)": [
+                  {
+                    "Name": "Ms. Rasheeda N.R",
+                    "Role": "Assistant Professor"
+                  }
+                ]
+              },
+              {
+                "DepartmentName": "Information Science and Engineering (BE)",
+                "Faculty (from Web Search)": []
+              },
+              {
+                "DepartmentName": "Computer Science & Engineering (Artificial Intelligence & Machine Learning) (BE)",
+                "Faculty (from Web Search)": []
+              },
+              {
+                "DepartmentName": "Artificial Intelligence & Data Science (BE)",
+                "Faculty (from Web Search)": []
+              },
+              {
+                "DepartmentName": "Electronics & Communication Engineering (BE)",
+                "Faculty (from Web Search)": [
+                  {
+                    "Name": "Ms. Annie Joseph",
+                    "Role": "Professor"
+                  },
+                  {
+                    "Name": "Dr. Ramprasad",
+                    "Role": "Professor"
+                  }
+                ]
+              },
+              {
+                "DepartmentName": "Mechanical Engineering (BE)",
+                "Faculty (from Web Search)": [
+                  {
+                    "Name": "Mr. Gurudatta Prabhu",
+                    "Role": "Assistant Professor"
+                  },
+                  {
+                    "Name": "Ms. Pooja",
+                    "Role": "Assistant Professor"
+                  }
+                ]
+              },
+              {
+                "DepartmentName": "Civil Engineering (BE)",
+                "Faculty (from Web Search)": [
+                  {
+                    "Name": "Dr. K.E. Prakash",
+                    "Role": "Professor"
+                  },
+                  {
+                    "Name": "Ms. Ananya Santhosh Kumbar",
+                    "Role": "Assistant Professor"
+                  }
+                ]
+              },
+              {
+                "DepartmentName": "Aeronautical Engineering (BE)",
+                "Faculty (from Web Search)": []
+              },
+              {
+                "DepartmentName": "M.Tech-Construction Technology",
+                "Faculty (from Web Search)": []
+              },
+              {
+                "DepartmentName": "Master of Business Administration (MBA)",
+                "Faculty (from Web Search)": []
+              },
+              {
+                "DepartmentName": "Master of Computer Application (MCA)",
+                "Faculty (from Web Search)": []
+              },
+              {
+                "DepartmentName": "Research Centre (Phd)",
+                "Faculty (from Web Search)": []
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi College of Pharmacy",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Dr. Jagadish V. Kamath"
+              },
+              {
+                "Role": "Teacher Representative",
+                "Name": "Dr. Prabhakara Prabhu"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "B.Pharm",
+                "FacultyNote": "Dataset indicates faculty page 'Will Be Updated Soon'."
+              },
+              {
+                "DepartmentName": "M.Pharm (Pharmaceutics, Pharmacology, Quality Assurance)",
+                "FacultyNote": "Dataset indicates faculty page 'Will Be Updated Soon'."
+              },
+              {
+                "DepartmentName": "Pharm.D",
+                "FacultyNote": "Dataset indicates faculty page 'Will Be Updated Soon'."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "CampusName": "M.G. Road / Ballalbagh Campus",
+        "Address": "Ballalbagh, Mangalore – 575 003",
+        "Colleges": [
+          {
+            "CollegeName": "Shree Devi College of Allied Health Sciences",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Smt. Seema Shettigar"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "BSc Medical Laboratory Technology"
+              },
+              {
+                "DepartmentName": "BSc Medical Imaging Technology"
+              },
+              {
+                "DepartmentName": "BSc Anaesthesia and Operation Theatre Technology"
+              },
+              {
+                "DepartmentName": "BSc Respiratory Care Technology"
+              },
+              {
+                "DepartmentName": "BSc Renal Dialysis Technology"
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi College of Physiotherapy",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Dr. Vijaya P"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "B.P.T.",
+                "FacultyNote": "Dataset indicates faculty page 'Will Be Updated Soon'."
+              },
+              {
+                "DepartmentName": "M.P.T.",
+                "FacultyNote": "Dataset indicates faculty page 'Will Be Updated Soon'."
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi College (BBA, BCA, B.Com)",
+            "KeyPersonnel": [
+              {
+                "Role": "Head, B.C.A.",
+                "Name": "Smt. H Trilokanath"
+              },
+              {
+                "Role": "Head, B.Com.",
+                "Name": "Smt. Revathi K."
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "BBA (Business Management)",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              },
+              {
+                "DepartmentName": "BCA (Computer Applications)",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              },
+              {
+                "DepartmentName": "B.Com (Commerce)",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              },
+              {
+                "DepartmentName": "B.B.A / B Com with Aviation And Hospitality Management"
+              },
+              {
+                "DepartmentName": "B.B.A / B Com with Supply Chain and Logistic Management"
+              },
+              {
+                "DepartmentName": "BCA / BBA / B.Com with Data Analytics, Artificial Intelligence and Cyber Security"
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi College of Fashion Design",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Smt. Kasturi Shetty"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "B.Sc in Fashion Design",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              },
+              {
+                "DepartmentName": "Diploma in Fashion Designing",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi College of Hotel Management",
+            "KeyPersonnel": [
+              {
+                "Role": "Administrator",
+                "Name": "Sri A. Krishnananda Shetty"
+              },
+              {
+                "Role": "Principal",
+                "Name": "Sri Samuel R. Jathanna"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "B.H.S (Hospitality Science)",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              },
+              {
+                "DepartmentName": "B.Sc. in Food Technology",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              },
+              {
+                "DepartmentName": "B.Sc. in Food Nutrition and Dietetics",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi College of Interior Design",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Sr. Savithri"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "B.Sc. Interior Design & Decoration",
+                "FacultyNote": "Dataset indicates faculty page 'will be updated soon'."
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi School of Nursing",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Dr. Bibiana Vijay"
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "GNM (General Nursing and Midwifery)",
+                "FacultyNote": "Dataset indicates faculty page 'Will Be Updated Soon'."
+              }
+            ]
+          },
+          {
+            "CollegeName": "Shree Devi College of Nursing",
+            "KeyPersonnel": [
+              {
+                "Role": "Principal",
+                "Name": "Not specified in the provided dataset governing body list."
+              }
+            ],
+            "Departments": [
+              {
+                "DepartmentName": "B.Sc Nursing"
+              },
+              {
+                "DepartmentName": "M.Sc Nursing"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

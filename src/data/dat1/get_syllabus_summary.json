@@ -1,0 +1,309 @@
+{
+  "campus_details": {
+    "kenjar_campus": {
+      "campus_name": "Shree Devi Institute of Technology (SDIT) Campus",
+      "address": "Airport Road, Kenjar, Mangalore – 574142, Karnataka State. Near Mangalore International Airport",
+      "contact": {
+        "phone": "+91 (824) 2254104",
+        "trust_office_phone": "+91-824-2457937, 2456501, 2456511",
+        "email": "info@sdc.ac.in"
+      },
+      "infrastructure": "The Kenjar campus features state-of-the-art labs, a central library, and hostel facilities for boys and girls. It is located close to the Mangalore International Airport and is approximately 12 km from the railway station.",
+      "colleges_at_campus": [
+        "Shree Devi Institute of Technology (SDIT)",
+        "Shree Devi College of Pharmacy"
+      ],
+      "departments_offered": [
+        {
+          "program": "Bachelor of Engineering (BE)",
+          "specializations": [
+            "Computer Science & Engineering",
+            "Information Science & Engineering",
+            "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+            "Artificial Intelligence & Data Science",
+            "Electronics & Communication Engineering",
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Aeronautical Engineering"
+          ]
+        },
+        {
+          "program": "Master of Technology (M.Tech)",
+          "specializations": [
+            "M.Tech-Construction Technology"
+          ]
+        },
+        {
+          "program": "Master of Business Administration (MBA)"
+        },
+        {
+          "program": "Master of Computer Application (MCA)"
+        },
+        {
+          "program": "Research Centre (Ph.D)"
+        },
+        {
+          "program": "Bachelor of Pharmacy (B.Pharm)"
+        },
+        {
+          "program": "Master of Pharmacy (M.Pharm)",
+          "specializations": [
+            "Pharmaceutics",
+            "Pharmacology",
+            "Quality Assurance"
+          ]
+        },
+        {
+          "program": "Doctor of Pharmacy (Pharm.D)"
+        }
+      ],
+      "fee_structure": {
+        "note": "Fee structures are based on web search results and may vary. The file data indicates fee pages are 'Page will be updated soon'.",
+        "BE": "Total fees range from ₹3.86 Lakhs to ₹7.44 Lakhs. First-year fees are approximately ₹2 Lakhs.",
+        "MTech_Construction_Tech": "Total fee is approximately ₹1.37 Lakhs. First-year fees are approximately ₹69,300.",
+        "MBA": "Total fee is approximately ₹1.17 Lakhs. First-year fees are approximately ₹1.16 Lakhs.",
+        "MCA": "Total fee is approximately ₹1.17 Lakhs. First-year fees are approximately ₹57,750.",
+        "B_Pharm": "Total tuition fees are approximately ₹1.07 Lakhs (as per KEA, KCET).",
+        "Pharm_D": "Total tuition fees are approximately ₹4.1 Lakhs."
+      }
+    },
+    "mg_road_campus": {
+      "campus_name": "Shree Devi College (M.G. Road / Ballalbagh) Campus",
+      "address": "Ballalbagh, Mangalore – 575 003, South Kanara District, Karnataka State",
+      "contact": {
+        "phone": "+91-824-2457937, 2456501, 2456511",
+        "fax": "+91 (824) 2451108",
+        "email": "info@sdc.ac.in"
+      },
+      "infrastructure": "A city-campus located in the convenient urban area of Ballalbagh/M.G. Road with a compact layout. Facilities include specialized labs for different courses (e.g., garment construction, design labs, training restaurant).",
+      "colleges_at_campus": [
+        "Shree Devi College (BBA, BCA, B.Com)",
+        "Shree Devi College of Allied Health Sciences",
+        "Shree Devi College of Fashion Design",
+        "Shree Devi College of Hotel Management",
+        "Shree Devi College of Interior Design",
+        "Shree Devi College of Physiotherapy",
+        "Shree Devi School of Nursing"
+      ],
+      "departments_offered": [
+        {
+          "program": "Bachelor of Business Administration (BBA)"
+        },
+        {
+          "program": "Bachelor of Computer Applications (BCA)"
+        },
+        {
+          "program": "Bachelor of Commerce (B.Com)"
+        },
+        {
+          "program": "B.Sc. Allied Health Sciences",
+          "specializations": [
+            "BSc Medical Laboratory Technology",
+            "BSc Medical Imaging Technology",
+            "BSc Anaesthesia and Operation Theatre Technology",
+            "BSc Respiratory Care Technology",
+            "BSc Renal Dialysis Technology"
+          ]
+        },
+        {
+          "program": "B.Sc. in Fashion Design"
+        },
+        {
+          "program": "Bachelor of Hospitality Science (B.H.S.)"
+        },
+        {
+          "program": "B.Sc. Food Technology"
+        },
+        {
+          "program": "B.Sc. Food Nutrition and Dietetics"
+        },
+        {
+          "program": "B.Sc. in Interior Design and Decoration"
+        },
+        {
+          "program": "Bachelor of Physiotherapy (B.P.T.)"
+        },
+        {
+          "program": "Master of Physiotherapy (M.P.T.)"
+        },
+        {
+          "program": "General Nursing and Midwifery (GNM)"
+        },
+        {
+          "program": "Value-Added Courses",
+          "specializations": [
+            "B.B.A / B.Com with Aviation and Hospitality Management",
+            "B.B.A / B.Com with Supply Chain and Logistic Management",
+            "BCA / BBA / B.Com with Data Analytics, Artificial Intelligence and Cyber Security"
+          ]
+        }
+      ],
+      "fee_structure": {
+        "note": "Fee structures are based on web search results and may vary. The file data indicates fee pages are 'Page will be updated soon'.",
+        "BBA": "Approximately ₹35,000 (1st Year Fees). Total for BBA with specializations is approximately ₹1.05 Lakhs.",
+        "BCA": "Approximately ₹35,000 (1st Year Fees). Total for BCA with specializations is approximately ₹1.05 Lakhs.",
+        "B_Com": "Approximately ₹25,000 (1st Year Fees). Total for B.Com (General) is approximately ₹75,000.",
+        "BPT": "Total fees are approximately ₹1.81 Lakhs, or ₹40,981 per year.",
+        "MPT": "Total fees are approximately ₹1.75 Lakhs, or ₹87,400 per year.",
+        "BSc_Allied_Health": "Fee data not specified in web search.",
+        "BSc_Fashion_Design": "Fee data not specified. File indicates 'Page will be updated soon'.",
+        "BSc_Interior_Design": "Fee data not specified in web search.",
+        "BHS_Hotel_Management": "Fee data not specified. File indicates 'Page will be updated soon'."
+      }
+    }
+  },
+  "syllabus_summary": {
+    "BBA_BCA_BCom_General": {
+      "degree": "BBA, BCA, B.Com",
+      "affiliation": "Mangalore University",
+      "summary": "These are three-year (six-semester) degree programs. Syllabi are as per Mangalore University regulations. The dataset does not contain detailed semester-wise subject lists for the general BBA, BCA, and B.Com programs, but lists add-on course syllabi."
+    },
+    "Addon_Aviation_Hospitality": {
+      "degree": "Advanced Diploma in Aviation and Hospitality Management (with BBA/B.Com)",
+      "affiliation": "Mangalore University",
+      "summary": {
+        "Year_1": "Principles of Aviation, Airport Operations, Hospitality, Accommodation Operations",
+        "Year_2": "Aviation Geography, Airport Customer Service, Catering Science and Hygiene, Hospitality Marketing",
+        "Year_3": "In-Flight Safety and Security, DGR (Dangerous Goods) & Screening, Cargo & Transportation Management, Principles of Food Production, F & B Services (Food & Beverage)"
+      }
+    },
+    "Addon_Supply_Chain_Logistics": {
+      "degree": "Advanced Diploma in Supply Chain and Logistic Management (with BBA/B.Com)",
+      "affiliation": "Mangalore University",
+      "summary": {
+        "Year_1": "Introduction to Supply Chain Management, Logistics, Customer Accommodation, Procurement and manufacturing, Information Technology in SCM, Integrated Operations planning",
+        "Year_2": "Inventory, Transportation Infrastructure, Transportation Operations, Warehousing, Packaging and Materials Handling",
+        "Year_3": "Global Supply Chains, Network Design in Supply Chain, Network and Operational Planning, Relationship development and management, Operational and Financial performance measurement, Supply Chain Risk"
+      }
+    },
+    "Addon_Data_Analytics_AI_Cyber_Security": {
+      "degree": "Advanced Diploma in Data Analytics, AI and Cyber Security (with BCA/BBA/B.Com)",
+      "affiliation": "Mangalore University",
+      "summary": {
+        "Year_1": "Introduction, Intelligent Agents, Problem Solving, Meaning of Big Data, Importance of Data Analytics, Industry examples of Big DATA, Introduction to Cybercrime and Cyber offenses and Cybercrime on mobile, Cybercrime in action, Computer Forensics, Cybercrime and Cyber security with legal perspective. Practical: Artificial Intelligence and Big Data",
+        "Year_2": "Knowledge and reasoning, Knowledge representation, Installing hadoop and hadoop features, Understanding the basics of MapReduce, Digital Securities, Online Anonymity. Practical: Data Analytics, Artificial Intelligence and Cyber Security",
+        "Year_3": "Planning, Uncertain Knowledge and reasoning, Data collection sampling and preprocessing, Predictive analytics, Cryptography and Secure Communication, Digital Forensics. Practical: Project Work"
+      }
+    },
+    "Engineering_BE": {
+      "degree": "Bachelor of Engineering (BE)",
+      "affiliation": "Visvesvaraya Technological University (VTU)",
+      "summary": "A four-year undergraduate program. Departments include CSE, ISE, AI&ML, AI&DS, ECE, ME, Civil, and Aeronautical Engineering. The curriculum follows the prescribed syllabus of Visvesvaraya Technological University (VTU), Belagavi."
+    },
+    "MTech_Construction": {
+      "degree": "Master of Technology (M.Tech)",
+      "affiliation": "Visvesvaraya Technological University (VTU)",
+      "summary": "A two-year postgraduate program in Construction Technology. The curriculum follows the prescribed syllabus of Visvesvaraya Technological University (VTU), Belagavi."
+    },
+    "MBA": {
+      "degree": "Master of Business Administration (MBA)",
+      "affiliation": "Visvesvaraya Technological University (VTU)",
+      "summary": "A two-year postgraduate program. The curriculum follows the prescribed syllabus of Visvesvaraya Technological University (VTU), Belagavi. Example subjects include 'Management & Organisational Behaviour' (1st Sem) and 'Emerging Technologies for Business' (4th Sem)."
+    },
+    "MCA": {
+      "degree": "Master of Computer Application (MCA)",
+      "affiliation": "Visvesvaraya Technological University (VTU)",
+      "summary": "A postgraduate program. The curriculum follows the prescribed syllabus of Visvesvaraya Technological University (VTU), Belagavi. Subjects include Data Structures, Web Technologies, AI and Machine Learning, Database Systems, and Network Security."
+    },
+    "B_Pharm": {
+      "degree": "Bachelor of Pharmacy (B.Pharm)",
+      "affiliation": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+      "summary": "A four-year degree course. The syllabus is governed by RGUHS and includes subjects in Pharmaceutical Chemistry, Pharmaceutics, Pharmacology, and Pharmacognosy, with practicals for each."
+    },
+    "M_Pharm": {
+      "degree": "Master of Pharmacy (M.Pharm)",
+      "affiliation": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+      "summary": "A two-year postgraduate course with specializations in Pharmaceutics, Pharmacology, and Quality Assurance. The scheme includes subjects like Modern Pharmaceutical Analysis, Advanced Pharmacology, and Validation. The course is divided into M.Pharm Part-I (12 months) and M.Pharm Part-II (12 months) which includes a dissertation."
+    },
+    "Pharm_D": {
+      "degree": "Doctor of Pharmacy (Pharm.D)",
+      "affiliation": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+      "summary": "A six-year degree course. Phase I consists of the first five academic years. Phase II consists of an internship or residency training during the sixth year, including postings in general medicine and other specialty departments."
+    },
+    "BPT": {
+      "degree": "Bachelor of Physiotherapy (B.P.T.)",
+      "affiliation": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+      "summary": "A four and a half year program, which includes a compulsory full-time internship of six months. The syllabus is as per RGUHS guidelines."
+    },
+    "MPT": {
+      "degree": "Master of Physiotherapy (M.P.T.)",
+      "affiliation": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+      "summary": "A two-year postgraduate program. Training is full-time and includes involvement in laboratory work, research studies, seminars, group discussions, and clinical rounds."
+    },
+    "GNM_Nursing": {
+      "degree": "General Nursing and Midwifery (GNM)",
+      "affiliation": "Karnataka State Diploma in Nursing Examination Board, Bangalore",
+      "summary": {
+        "Year_1": "Theory: Bio-Science, Behavioural Science, Fundamentals of Nursing, Community Health Nursing. Practical: Fundamentals of Nursing.",
+        "Year_2": "Theory: Medical Surgical Nursing- I, Medical Surgical Nursing- II, Mental Health & Psychiatric Nursing, Child Health Nursing. Practical: Medical Surgical Nursing, Psychiatric Nursing, Child Health Nursing.",
+        "Year_3_Part_I": "Theory: Midwifery and Gynecology, Community Health Nursing- II. Practical: Midwifery, Community Health Nursing- II.",
+        "Year_3_Part_II_School_Exam": "Nursing Education and Introduction to Research and Statistics, Professional Trends & Adjustment, Nursing administration and Ward Management."
+      }
+    },
+    "BSc_Fashion_Design": {
+      "degree": "B.Sc. in Fashion Design",
+      "affiliation": "Mangalore University",
+      "summary": {
+        "Semester_1": "Communicative English, Indian Language, Basic Concepts of Design (Th.), Design (Pr.), Indian History of Arts & Costumes, Elementary Textiles - I, Constitution of India.",
+        "Semester_2": "Communicative English, Indian Language, Sewing Technology (Th.), Basic Sewing Technique (Pr.), Basic Sketching and Illustration, Introduction of apparel industry, Human Rights & Environment.",
+        "Semester_3": "Computer Basic (Th. & Pr.), Fashion Design and Illustration (Th.), Fashion Design Production & Survey (Pr.), Pattern Making & Construction Techniques (Th.), Pattern Cutting (Pr.), Production Management & Merchandising, Elementary Textiles II.",
+        "Semester_4": "Fabric Wet Processing and Printing (Th. & Pr.), Garment Manufacturing (Th. & Pr.), Computer Application Design I (Th. & Pr.), Fabric Testing and Inspection, World History of Art and Costumes.",
+        "Semester_5": "Fashion Illustration and Presentation (Th. & Pr.), Craft Work and Fashion Accessories (Th. & Pr.), Cost Accounting and Statistics, Event Management, In House Training.",
+        "Semester_6": "Computer Application Design II (Th. & Pr.), Final Collection and Fashion Show, Final Collection (Pr.), Fashion Marketing and Career Guidance, Marketing and Advertising Management, Project Work."
+      }
+    },
+    "BSc_Interior_Design": {
+      "degree": "B.Sc. in Interior Design and Decoration",
+      "affiliation": "Mangalore University",
+      "summary": "A Bachelor's Degree program affiliated to Mangalore University, which was the first university in the country to start this program. The dataset does not contain a detailed semester-wise syllabus."
+    },
+    "BHS_Hotel_Management": {
+      "degree": "Bachelor of Hospitality Science (B.H.S.)",
+      "affiliation": "Mangalore University",
+      "summary": {
+        "Semester_1": "English I, French I, Food Production I, F&B Service I, Front Office Management I, Hygiene & Sanitation, Practicals for Food Production, F&B Service, and Front Office, Constitution of India.",
+        "Semester_2": "English II, French II, Food Production II, F&B Service II, Accommodation Operations I, Nutrition & Food Science, Practicals for Food Production, F&B Service, and Accommodation Operations, Human Rights & Environment.",
+        "Semester_3": "Food Production III, F&B Service III, Front Office Management II, Accommodation Operations II, Accounts, Human Resource Management, Practicals for Food Production, F&B Service, and Front Office.",
+        "Semester_4": "Food Production IV, F&B Service IV, Accommodation Operations III, Front Office Management II, Facilities Management, Hotel Law, Practicals for Food Production, F&B Service, and Accommodation Operations.",
+        "Semester_5": "Food Production V, F & B Management, Tourism Management, Marketing Management, Hospitality Information System, Accommodation Administration, Practicals for Food Production and Hospitality Information System.",
+        "Semester_6": "Project Work."
+      }
+    },
+    "BSc_Food_Technology": {
+      "degree": "B.Sc. in Food Technology",
+      "affiliation": "Mangalore University",
+      "summary": "A 3-year (6 Semester) Bachelor’s Degree Programme. Aims to impart knowledge of food composition, processing and preservation technologies, food safety, quality, sanitation, and packaging. The dataset does not contain a detailed semester-wise syllabus."
+    },
+    "BSc_Food_Nutrition": {
+      "degree": "B.Sc. in Food Nutrition and Dietetics",
+      "affiliation": "Mangalore University",
+      "summary": "A 3-year (6 Semester) Bachelor’s Degree Programme. The dataset does not contain a detailed semester-wise syllabus."
+    },
+    "BSc_Allied_Health": {
+      "degree": "B.Sc. Allied Health Sciences",
+      "affiliation": "Rajiv Gandhi University of Health Sciences (RGUHS)",
+      "summary": "A four-year Bachelor's Degree program including a compulsory full-time internship of one year.",
+      "common_year_1": "Main Subjects: Basic Anatomy (including Histology), Physiology, Biochemistry, Pathology, Microbiology. Subsidiary Subjects: English, Kannada, Healthcare.",
+      "BSc_Renal_Dialysis_Tech": {
+        "Year_2": "Applied Anatomy & Physiology (Dialysis), Pharmacology (Haemodialysis), Concepts of Renal Disease, Applied aspects of Pathology & Microbiology, Basics of Renal Dialysis Technology. Subsidiary: Nutrition.",
+        "Year_3": "Applied Dialysis Technology Paper I & II. Subsidiary: Medico-legal aspects, Blood transfusion, Healthcare Management."
+      },
+      "BSc_Respiratory_Care_Tech": {
+        "Year_2": "Applied pathology & Microbiology, Introduction to Respiratory Technology, Pharmacology, Medicine relevant to Respiratory Technology. Subsidiary: Sociology, Constitution of India, Environmental Science & Health.",
+        "Year_3": "Respiratory Technology-Clinical, Respiratory Technology-Applied. Subsidiary: Ethics, database Management, Research & Biostatistics, Computer Application."
+      },
+      "BSc_Anaesthesia_OT_Tech": {
+        "Year_2": "Applied pathology & Microbiology, Introduction to Anaesthesia & OT Technology, Applied Pharmacology, Medicine relevant to Anaesthesia & OT Technology. Subsidiary: Sociology, Constitution of India, Environmental Science & Health.",
+        "Year_3": "Anaesthesia & OT Technology-Clinical, Anaesthesia & OT Technology-Applied, Anaesthesia & OT Technology-Advanced. Subsidiary: Ethics, database Management, Research & Biostatistics, Computer Application."
+      },
+      "BSc_Medical_Imaging_Tech": {
+        "Year_2": "Radiation Physics, Imaging Physics and DarkRoom Techniques, Radiographic Positioning & Techniques. Subsidiary: Sociology, Constitution of India, Environmental Science & Health.",
+        "Year_3": "Diagnostic Imaging Techniques Modalities, Radiographic Special Procedures & Patient Care, Radiographic Positioning. Subsidiary: Ethics, database Management, Research & Biostatistics, Computer Application."
+      },
+      "BSc_Medical_Lab_Tech": {
+        "Year_2": "Biochemistry II, Microbiology I, Pathology I. Subsidiary: Sociology, Constitution of India, Environmental Science & Health.",
+        "Year_3": "Biochemistry II, Microbiology II, Pathology II. Subsidiary: Ethics, database Management, Research & Biostatistics, Computer Application."
+      }
+    }
+  }
+}

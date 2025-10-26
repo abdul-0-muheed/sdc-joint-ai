@@ -1,0 +1,24 @@
+{
+  "college_name": "Shree Devi Institute of Technology (SDIT)",
+  "affiliating_university": "Visvesvaraya Technological University (VTU), Belagavi",
+  "accreditation_info": {
+    "naac": {
+      "status": "Accredited",
+      "grade": "A",
+      "details": "The institution is accredited by the National Assessment and Accreditation Council (NAAC) with an 'A' grade. It is also mentioned that NAAC accreditation reflects the quality of the institution."
+    },
+    "nba": {
+      "status": "Accredited / Pursuing",
+      "details": "The institute is accredited by the National Board of Accreditation (NBA). Some sources suggest that departments within the institute might have NBA accreditation."
+    },
+    "aicte": {
+      "status": "Approved",
+      "details": "The institute is approved by the All India Council for Technical Education (AICTE)."
+    },
+    "iso": {
+      "status": "Certified",
+      "details": "The institute is ISO 9001:2008 Certified."
+    }
+  },
+  "note": "Accreditation details are compiled from search results and dataset snippets. Specific details like accreditation cycles or validity periods are not available in the provided information. The affiliation to VTU is standard for most engineering colleges in Karnataka."
+}

@@ -1,0 +1,49 @@
+{
+  "function_query": "get_cafeteria_menu(day)",
+  "status": "Details Not Available",
+  "note": "Specific daily menus (for a given 'day') are not available in the provided dataset or public web search results. The following JSON provides details regarding the cafeteria facilities at both campuses based on the available data.",
+  "campus_menus": [
+    {
+      "campus_name": "Kenjar Campus",
+      "data_source_dataset": [
+        {
+          "id": "gen_Hos_Boy_12",
+          "category": "Hostel & Accommodation",
+          "details": "The dataset references a 'mess menu rotation' for the 'Boys Hostel Block 2'.",
+          "verification_note": "The dataset entry notes that 'mess menu are approximations and should be updated from hostel administration'."
+        }
+      ],
+      "data_source_web_search": [
+        {
+          "source_title": "Shree Devi Institute of Technology Mangalore: Admission 2025, Fees, Courses...",
+          "details": "The Kenjar campus is confirmed to have 'mess facilities', a 'well-maintained cafeteria', and 'a canteen on a contract basis, providing quality food at student-friendly prices'."
+        },
+        {
+          "source_title": "Shree Devi Institute of Technology Mangalore Hostel Fees 2025...",
+          "details": "Reviews for the *hostel mess* are noted as a concern, with descriptions like 'Food quality is a major concern' and 'The food or mess in the student hostel are about average, the quality and variety of food is very low'."
+        }
+      ]
+    },
+    {
+      "campus_name": "M.G. Road Campus (Ballalbagh)",
+      "data_source_dataset": [
+        {
+          "id": "gen_Cam_Caf_11",
+          "category": "Campus Facilities",
+          "details": "The dataset repeatedly identifies a 'Cafeteria Main' facility at the M.G. Road Campus.",
+          "verification_note": "These dataset entries are templates and state: 'VERIFY: exact timings... must be confirmed with the college'."
+        }
+      ],
+      "data_source_web_search": [
+        {
+          "source_title": "Shree Devi College, Mangalore Infrastructure...",
+          "details": "A student review for the M.G. Road/Ballalbagh campus noted that 'the canteen food is good'."
+        },
+        {
+          "source_title": "Justdial / YouTube",
+          "details": "Web search results identify several public restaurants and cafes *near* the M.G. Road (Ballalbagh) campus, such as 'Shri Devi Canteen', 'Xo Cafe', 'Olive Street Food Cafe', and 'Hamster Restro Cafe', which are distinct from the internal college canteen."
+        }
+      ]
+    }
+  ]
+}

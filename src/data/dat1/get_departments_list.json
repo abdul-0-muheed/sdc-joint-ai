@@ -1,0 +1,185 @@
+{
+  "departments_list": {
+    "kenjar_campus": {
+      "campus_name": "Airport Road Campus (Kenjar)",
+      "campus_address": "Airport Road, Kenjar, Mangalore - 574142, Karnataka State, India",
+      "departments": [
+        {
+          "department_name": "Aeronautical Engineering",
+          "degree_offered": "B.E.",
+          "department_details": "Engineering department under Shree Devi Institute of Technology (SDIT).",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "Civil Engineering",
+          "degree_offered": "B.E.",
+          "department_details": "Engineering department under Shree Devi Institute of Technology (SDIT).",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "Computer Science & Engineering",
+          "degree_offered": "B.E.",
+          "department_details": "Engineering department under Shree Devi Institute of Technology (SDIT).",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "Electronics & Communication Engineering",
+          "degree_offered": "B.E.",
+          "department_details": "Engineering department under Shree Devi Institute of Technology (SDIT).",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "Information Science & Engineering",
+          "degree_offered": "B.E.",
+          "department_details": "Engineering department under Shree Devi Institute of Technology (SDIT).",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "Master of Business Administration (MBA)",
+          "degree_offered": "MBA",
+          "department_details": "Management department under Shree Devi Institute of Technology (SDIT).",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "Training and Placement Department",
+          "department_details": "Handles placement activities for students across departments at SDIT Kenjar.",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "Shree Devi College of Interior Design",
+          "department_details": "Offers specialized courses in Interior Design under the Shree Devi Education Trust.",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        },
+        {
+          "department_name": "ECE Department (Example Lab Detail)",
+          "department_details": "Part of Electronics & Communication Engineering. Example: ECE Department Lab 1, Room 101, First Floor. (Note: This is based on a templated entry from the dataset and requires verification for actual lab details, equipment, and timings.)",
+          "contact": {
+            "phone": "+91 (824) 2254104, +91 (824) 2254102",
+            "email": "info@sdit.edu.in"
+          }
+        }
+      ]
+    },
+    "ballabagh_campus": {
+      "campus_name": "Ballabagh Campus",
+      "campus_address": "Ballalbagh, Mangalore - 575003, Karnataka, India",
+      "departments": [
+        {
+          "department_name": "Shree Devi College of Pharmacy",
+          "degree_offered": "B.Pharm, D.Pharm",
+          "department_details": "Offers undergraduate and diploma courses in Pharmacy.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Shree Devi College of Physiotherapy",
+          "degree_offered": "BPT",
+          "department_details": "Offers Bachelor of Physiotherapy. Departments include Electro-Therapy and Exercise Therapy.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Shree Devi College of Nursing",
+          "degree_offered": "B.Sc. Nursing, GNM",
+          "department_details": "Offers undergraduate and general nursing courses.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Shree Devi School Of Nursing",
+          "degree_offered": "GNM",
+          "department_details": "Offers General Nursing and Midwifery courses.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Shree Devi College of Hotel Management",
+          "degree_offered": "BHM, B.Sc, Diploma",
+          "department_details": "Focuses on hospitality science education.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Sri Devi College of Fashion Design",
+          "degree_offered": "Various Fashion Design Courses",
+          "department_details": "Offers courses in Fashion Design and related fields.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Shree Devi College of Allied Health Sciences",
+          "degree_offered": "B.Sc. MLT, B.Sc. MIT",
+          "department_details": "Offers courses in Medical Laboratory Technology and Medical Imaging Technology.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Department of Computer Applications (MCA)",
+          "degree_offered": "MCA",
+          "department_details": "Offers Master of Computer Applications. (Located nearby Ballabagh Campus, associated with Trust)",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Management Studies",
+          "degree_offered": "BBM, BHRD, BCA, B.Com",
+          "department_details": "Offers various undergraduate management and computer application courses.",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        },
+        {
+          "department_name": "Food Technology Department",
+          "degree_offered": "(Affiliated to Mangalore University)",
+          "department_details": "Offers courses in Food Technology (specific degree level not specified in results).",
+          "contact": {
+            "phone": "+91-824-2457937",
+            "email": "info@sdc.ac.in"
+          }
+        }
+      ]
+    }
+  },
+  "note": "This list is compiled from available text fragments and search results. Specific details like exact courses offered within departments (beyond general degree levels), faculty information, and detailed contact numbers for each department are limited in the provided data. Vision and Mission statements are derived from multiple pages and may be slightly paraphrased or summarized. The information about departments on specific campuses is inferred from the address mentioned in the document titles (Airport Road, Kenjar) and the Trust Office address on M.G. Road / Ballabagh. Some departments like the ECE Lab detail are based on templated entries from the provided dataset and require verification. Contact details provided are for the main campus/campus block or the Trust office."
+}

@@ -1,0 +1,142 @@
+{
+  "get_library_timing": {
+    "function_found": false,
+    "comment": "The function get_library_timing() was not found in the provided dataset. However, library timing details were found for both campuses via web search and file analysis.",
+    "timings": [
+      {
+        "campus": "Kenjar Campus (Shree Devi Institute of Technology)",
+        "library_name": "SIET Library and Information Center",
+        "hours": {
+          "Monday - Friday": "08:00 AM - 06:30 PM",
+          "Saturday": "08:00 AM - 01:30 PM",
+          "Sunday": "Closed"
+        },
+        "source": "Web Search"
+      },
+      {
+        "campus": "M.G. Road Campus (Shree Devi College / Education Trust)",
+        "comment": "Specific library operating hours were not found. The general college hours at this location are listed below.",
+        "general_college_hours": {
+          "Monday - Friday": "09:00 AM - 04:00 PM",
+          "Saturday": "09:00 AM - 12:00 PM",
+          "Sunday": "Closed"
+        },
+        "source": "Web Search"
+      }
+    ]
+  },
+  "campus_details": [
+    {
+      "campus_name": "Kenjar Campus",
+      "institution_name": "Shree Devi Institute of Technology (SDIT)",
+      "address": "Airport Road, Kenjar, Mangalore – 574142, Karnataka State, India",
+      "location_details": "Located in suburban Mangalore, set on 12 acres. Close proximity to Mangalore International Airport (approx 1-1.6 km) and Mangalore Railway Station (approx 12-12.2 km).",
+      "contact": {
+        "phone": [
+          "+91 (824) 2254104",
+          "0824-2010219"
+        ],
+        "email": [
+          "info@sdc.ac.in",
+          "sditprincipal@gmail.com"
+        ]
+      },
+      "affiliations_and_recognition": [
+        "Affiliated to Visveswaraya Technological University (VTU), Belgaum",
+        "Recognized by All India Council for Technical Education (AICTE), New Delhi"
+      ],
+      "courses_offered": {
+        "undergraduate_be": [
+          "Aeronautical Engineering",
+          "Civil Engineering",
+          "Computer Science & Engineering (CSE)",
+          "CSE (Artificial Intelligence & Machine Learning)",
+          "Artificial Intelligence & Data Science",
+          "Electronics & Communication Engineering",
+          "Information Science & Engineering",
+          "Mechanical Engineering"
+        ],
+        "postgraduate": [
+          "Master of Business Administration (MBA)",
+          "Master of Computer Application (MCA)",
+          "M.Tech (Computer Science)",
+          "M.Tech (Construction Technology)"
+        ],
+        "research": "Physics Research Centre (Ph.D. Programs)"
+      },
+      "facilities": [
+        "Library (SIET Library and Information Center)",
+        "Separate Hostels for Boys & Girls",
+        "Transportation (fleet of 18 buses)",
+        "State-of-the-art Laboratories",
+        "Seminar Halls and Auditorium",
+        "Canteen and Cafeteria",
+        "Sports Club and Facilities",
+        "Wi-Fi enabled campus",
+        "Bank",
+        "Recreational Areas"
+      ],
+      "library_specific_details": {
+        "name": "SIET Library and Information Center",
+        "collection_size": "16,918 books and 2,684 titles (Engineering)",
+        "journals": "76 National and 76 International Journals (Engineering)",
+        "e_resources": "VTU-Consortium, National Digital Library of India (NDL), Shodhganga",
+        "it_facilities": "20 Desktop Computers, Internet Facility"
+      }
+    },
+    {
+      "campus_name": "M.G. Road Campus",
+      "institution_name": "Shree Devi Education Trust (R.) / Shree Devi College",
+      "address": "M.G. Road, Mangalore – 575 003, South Kanara District, Karnataka State. Also referred to as Ballalbagh, Mangalore.",
+      "location_details": "City-campus located in Ballalbagh/Lalbagh area, near M.G. Road.",
+      "contact": {
+        "phone": [
+          "+91-824-2457937",
+          "+91-824-2456501",
+          "+91-824-2456511"
+        ],
+        "mobile": [
+          "+91 91411 81260",
+          "+91 91411 81261"
+        ],
+        "email": "info@sdc.ac.in"
+      },
+      "affiliations_and_recognition": [
+        "Affiliated to Mangalore University, Mangalore",
+        "AICTE Approved",
+        "NAAC Accreditation"
+      ],
+      "colleges_at_location": [
+        "Shree Devi College (BBA, BCA, B.Com)",
+        "Shree Devi College Of Pharmacy",
+        "Shree Devi College Of Nursing",
+        "Shree Devi College of Interior Design",
+        "Shree Devi Institute of Social Work (MSW)",
+        "Shree Devi College of Allied Health Sciences"
+      ],
+      "courses_offered": [
+        "Bachelor of Business Administration (BBA)",
+        "Bachelor of Computer Application (BCA)",
+        "Bachelor of Commerce (B.Com)",
+        "BBA/B.Com with Aviation and Hospitality Management",
+        "BBA/B.Com with Supply Chain and Logistic Management",
+        "BCA/BBA/B.Com with Data Analytics, AI, and Cyber Security",
+        "B.Pharm, M.Pharm, Pharm D",
+        "M.S.W. (Master of Social Work)",
+        "B.Sc Nursing",
+        "B.Sc Interior Design",
+        "B.Sc Allied Health Sciences (MLT, MIT, A&OTT, RCT, RDT)"
+      ],
+      "facilities": [
+        "Well-stocked / Spacious Library",
+        "Hostel (Male & Female)",
+        "Transport",
+        "Sports",
+        "Auditorium",
+        "Cafeteria",
+        "Medical Support",
+        "Modern Classrooms"
+      ]
+    }
+  ]
+}

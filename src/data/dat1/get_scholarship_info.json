@@ -1,0 +1,91 @@
+{
+  "scholarship_information": {
+    "summary": "Information was compiled from the provided dataset and web search results. The dataset indicates that the 'Shree Devi Education Trust' provides scholarships to students from low-income families. However, specific fee and scholarship pages on the official websites are often marked as 'Page will be updated soon'. Web search results provide some additional indicative details.",
+    "campuses": [
+      {
+        "campus_name": "Kenjar Campus",
+        "associated_institution": "Shree Devi Institute of Technology (SDIT)",
+        "location_details": {
+          "address": "Airport Road, Kenjar, Mangalore – 574142, Karnataka State",
+          "contact": "+91 (824) 2254104",
+          "notes": "Located near Mangalore International Airport, approximately 12 km from the railway station."
+        },
+        "scholarships": {
+          "source": "Web Search (collegedunia.com) and Provided Dataset",
+          "details": [
+            "The Trust provides scholarships for students from low-income families.",
+            "Government scholarships are available.",
+            "Scholarships for reserved categories (SC/ST/OBC) are mentioned.",
+            "Merit-based scholarships may be offered to students with high marks in qualifying exams."
+          ]
+        },
+        "fees": {
+          "source": "Web Search (collegedunia.com) and Provided Dataset",
+          "official_status": "The official website's fee structure page states: 'Page will be updated soon…'",
+          "indicative_fees_from_web_search": [
+            {
+              "program": "B.E. (1st Year)",
+              "fee": "₹99,090"
+            },
+            {
+              "program": "MBA (1st Year)",
+              "fee": "₹84,090"
+            },
+            {
+              "program": "M.Tech (1st Year)",
+              "fee": "₹84,090"
+            }
+          ]
+        },
+        "other_details": {
+          "infrastructure": "State-of-the-art labs, library, and hostels for boys & girls are available on the Kenjar campus.",
+          "placements": "Web search results mention recruiters such as TCS, Wipro, Infosys, and Robosoft."
+        }
+      },
+      {
+        "campus_name": "M.G. Road / Ballalbagh Campus",
+        "associated_institution": "Shree Devi College (BBA, BCA, B.Com, Allied Health, etc.)",
+        "location_details": {
+          "address": "M.G. Road, Mangalore – 575003, South Kanara District, Karnataka State",
+          "contact": [
+            {
+              "type": "Phone",
+              "value": "+91 (824) 2457937, 2456501, 2456511"
+            },
+            {
+              "type": "Mobile",
+              "value": "+91 98440 45622, +91 91411 81260, +91 91411 81261"
+            },
+            {
+              "type": "Fax",
+              "value": "+91 (824) 2451108"
+            },
+            {
+              "type": "E-mail",
+              "value": "info@sdc.ac.in"
+            }
+          ],
+          "notes": "This is a city-campus located in Ballalbagh/M.G. Road, described as having a convenient urban location and compact layout."
+        },
+        "scholarships": {
+          "source": "Web Search (getmyuni.com, collegedekho.com) and Provided Dataset",
+          "details": [
+            "The Shree Devi Education Trust offers scholarships to deserving students.",
+            "Students can apply for various government scholarships.",
+            "Specific government scholarships mentioned include 'Post Matric Scholarship', 'SC/ST scholarship', and 'Minority scholarship'.",
+            "Application portals mentioned are the 'National Scholarship Portal (NSP)' and 'Karnataka State Scholarship Portal (SSP)'."
+          ]
+        },
+        "fees": {
+          "source": "Provided Dataset and Web Search",
+          "official_status": "The official website's fee structure page states: 'Page will be updated soon…'",
+          "indicative_fees_from_web_search": "No specific fee amounts were found in the web search snippets for this campus."
+        },
+        "other_details": {
+          "infrastructure": "A city-campus with a compact layout.",
+          "programs_served": "Serves multiple programs, including Commerce (B.Com), BCA, BBA, Allied Health Sciences, Fashion Design, Hotel Management, Interior Design, Physiotherapy, and Nursing."
+        }
+      }
+    ]
+  }
+}

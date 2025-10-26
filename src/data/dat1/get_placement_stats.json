@@ -1,0 +1,174 @@
+{
+  "note": "The user request was to 'get get_placement_stats() each year' and 'web search of two campus'. This was interpreted as a query to retrieve placement statistics for the two campuses identified in the provided file: Kenjar Campus and M.G. Road Campus. The provided file 'structured_rag_dataset.jsonl' did not contain a function named 'get_placement_stats()', and its own placement data was found to be minimal, with many pages containing 'Page will be updated soon...'. Therefore, a web search was conducted to gather the detailed statistics as requested.",
+  "placement_data": {
+    "kenjar_campus_sdit": {
+      "campus_name": "Shree Devi Institute of Technology (SDIT), Kenjar Campus",
+      "data_from_file": {
+        "summary": "No aggregate statistics were found in the file. Many official placement pages are placeholders (e.g., doc_151, doc_227, doc_527, doc_571) with the content 'Page will be updated soon…'.",
+        "notes": "The file contains numerous 'generated_template' entries for placements (e.g., gen_Pla_Rec_58, gen_Pla_Rec_78, gen_Pla_Rec_98) which explicitly state 'VERIFY: company participation & package numbers need confirmation', indicating the file data is unverified and not a statistical report.",
+        "specific_records_found": [
+          {
+            "year": "2019-20",
+            "type": "Individual Offer Letter",
+            "details": "Found one offer letter (doc_1168) from Infosys Limited",
+            "salary": "INR 25,000 per month during training, and INR 30,000 per month after 6 months"
+          }
+        ]
+      },
+      "data_from_web": {
+        "summary": "Web search provided more concrete statistics for SDIT, Kenjar, including year-wise offer counts and a detailed report for 2023.",
+        "general_statistics": {
+          "placement_rate": "On average, 90–95% of eligible final year students have been placed through campus placements in the last 3 years (as of 2024/2025 reports)."
+        },
+        "year_wise_statistics": {
+          "2023_highlights": {
+            "students_placed": 318,
+            "highest_package": "INR 5.06 LPA",
+            "average_package": "INR 3.12 LPA",
+            "lowest_package": "INR 1.8 LPA"
+          },
+          "2023_company_details": [
+            {"company": "TCS", "students_placed": 2, "package": "INR 3.36 LPA"},
+            {"company": "Infosys Limited", "students_placed": 1, "package": "INR 2.6 LPA"},
+            {"company": "7Edge", "students_placed": 3, "package": "INR 3.36 LPA"},
+            {"company": "Kakunje Software Pvt Ltd", "students_placed": 7, "package": "INR 4 LPA"},
+            {"company": "Accolade Tech Solutions", "students_placed": 13, "package": "INR 3 LPA"},
+            {"company": "Pin Click", "students_placed": 8, "package": "INR 2.64 LPA"},
+            {"company": "Cydra Tech", "students_placed": 7, "package": "INR 3.8 LPA"},
+            {"company": "Rinex Technologies Pvt Ltd", "students_placed": 11, "package": "INR 1.8 LPA"},
+            {"company": "201 Electro Instruments", "students_placed": 3, "package": "INR 3.5 LPA"}
+          ],
+          "total_offers_by_year": [
+            {"year": "2020", "offers": "492+"},
+            {"year": "2019", "offers": "480+"},
+            {"year": "2018", "offers": "461+"},
+            {"year": "2017", "offers": "452+"},
+            {"year": "2016", "offers": "427+"}
+          ],
+          "2020_company_details": [
+            {"company": "INFOSYS LIMITED", "students_placed": 19, "package": "2.6 LPA"},
+            {"company": "DXC TECHNOLOGY", "students_placed": 1, "package": "3.42 LPA"},
+            {"company": "KAKUNJE SOFTWARE PVT LTD", "students_placed": 9, "package": "4 LPA"},
+            {"company": "PIN CLICK", "students_placed": 27, "package": "5.52 LPA"},
+            {"company": "JARGO EDUCATION", "students_placed": 1, "package": "6.78 LPA"},
+            {"company": "WIPRO LIMITED", "students_placed": 2, "package": "3.5 LPA"}
+          ],
+          "2019_company_details": [
+            {"company": "INFOSYS LIMITED", "students_placed": 31, "package": "2.6 LPA"},
+            {"company": "ORACLE", "students_placed": 1, "package": "3.17 LPA"},
+            {"company": "TCS", "students_placed": 1, "package": "3.36 LPA"},
+            {"company": "PIN CLICK", "students_placed": 1, "package": "4.8 LPA"},
+            {"company": "KAKUNJE SOFTWARE PRIVATE LIMITED", "students_placed": 12, "package": "4 LPA"},
+            {"company": "NUMARK", "students_placed": 15, "package": "4.8 LPA"},
+            {"company": "DREAMGAINS FINANCIALS INDIA PVT LTD", "students_placed": 4, "package": "5.03 LPA"},
+            {"company": "SILVERPEAK GLOBAL PVT. LTD.", "students_placed": 37, "package": "2.45 LPA"},
+            {"company": "AMAZON", "students_placed": 28, "package": "2.4 LPA"},
+            {"company": "ACCOLITE DIGITAL LLC", "students_placed": 0, "package": "13 LPA"},
+            {"company": "ADANI POWER", "students_placed": 0, "package": "5.5 LPA"},
+            {"company": "SAMUDRAINSTITUTE", "students_placed": 4, "package": "7 LPA"},
+            {"company": "MECTON TECHNOLOGIES", "students_placed": 20, "package": "5.47 LPA"}
+          ]
+        },
+        "mba_placements": {
+          "average_package": "INR 3.50 to 4.50 LPA",
+          "highest_package": "INR 8 to 11 LPA",
+          "recruiters": ["Accenture", "Oracle", "Saffron hotels", "pinclik software", "emphasis", "HDFC BANK", "Icici life insurance", "and more than 60 plus companies"]
+        },
+        "top_recruiters_list": [
+          "Infosys",
+          "TCS",
+          "Wipro",
+          "Tech Mahindra",
+          "IBM",
+          "Oracle",
+          "Amazon",
+          "HP",
+          "HCL",
+          "Dell",
+          "L&T",
+          "Adani Power",
+          "Q Spiders",
+          "Just Dial"
+        ]
+      }
+    },
+    "mg_road_campus": {
+      "campus_name": "Shree Devi College, M.G. Road Campus (Houses multiple colleges like Pharmacy, Hotel Management, BBA/BCA, Nursing, etc.)",
+      "data_from_file": {
+        "summary": "Similar to Kenjar, placement pages (e.g., doc_309, doc_383) are often placeholders. However, Hotel Management provided specific details.",
+        "specific_records_found": {
+          "hotel_management": {
+            "statistic": "100% placement record till date",
+            "recruiters_listed": [
+              "Jumeirah Beach Resort-Dubai",
+              "Chicago Beach Resort",
+              "SAS Raddison-Muscat",
+              "The Oberoi-Saudi Arabia",
+              "Raj Vilas-Jaipur",
+              "Taj Residency & The Oberoi-Bangalore",
+              "Leela Palace",
+              "Indian Airlines"
+            ]
+          }
+        }
+      },
+      "data_from_web": {
+        "summary": "Web search provided excellent, year-wise data for the College of Pharmacy and confirmed details for Hotel Management. Data for the BBA/BCA college is contradictory.",
+        "shree_devi_college_of_pharmacy": {
+          "department_summary": "Provides consistent placement support with training, mock interviews, and recruitment drives. Top recruiters include Cipla, Sun Pharma, Biocon, Dr. Reddy's, Lupin, and Pfizer.",
+          "b_pharm_placements_2019_2023": [
+            {"year": 2023, "total_students": 90, "placement_rate": "80%", "students_placed": 72, "average_salary": "₹4.3 LPA", "highest_salary": "₹6.5 LPA", "recruiters": "Cipla, Dr. Reddy's, Biocon"},
+            {"year": 2022, "total_students": 88, "placement_rate": "79.5%", "students_placed": 70, "average_salary": "₹4.1 LPA", "highest_salary": "₹6.2 LPA", "recruiters": "Lupin, Zydus Cadila, Glenmark"},
+            {"year": 2021, "total_students": 85, "placement_rate": "80%", "students_placed": 68, "average_salary": "₹4.0 LPA", "highest_salary": "₹6.0 LPA", "recruiters": "Torrent Pharma, Sun Pharma"},
+            {"year": 2020, "total_students": 82, "placement_rate": "79%", "students_placed": 65, "average_salary": "₹3.8 LPA", "highest_salary": "₹5.8 LPA", "recruiters": "GSK, Jubilant Life Sciences"},
+            {"year": 2019, "total_students": 80, "placement_rate": "75%", "students_placed": 60, "average_salary": "₹3.7 LPA", "highest_salary": "₹5.7 LPA", "recruiters": "Alkem Laboratories, Abbott"}
+          ],
+          "m_pharm_placements_2019_2023": [
+            {"year": 2023, "total_students": 45, "placement_rate": "84.4%", "students_placed": 38, "average_salary": "₹6.0 LPA", "highest_salary": "₹7.8 LPA", "recruiters": "Novartis, Pfizer, Syngene"},
+            {"year": 2022, "total_students": 42, "placement_rate": "83.3%", "students_placed": 35, "average_salary": "₹5.8 LPA", "highest_salary": "₹7.5 LPA", "recruiters": "Dr. Reddy's, Cipla, Biocon"},
+            {"year": 2021, "total_students": 40, "placement_rate": "82.3%", "students_placed": 33, "average_salary": "₹5.6 LPA", "highest_salary": "₹7.2 LPA", "recruiters": "Sanofi, Lupin, GSK"},
+            {"year": 2020, "total_students": 38, "placement_rate": "78.9%", "students_placed": 32, "average_salary": "₹5.4 LPA", "highest_salary": "₹7.0 LPA", "recruiters": "Glenmark, Zydus Cadila"},
+            {"year": 2019, "total_students": 35, "placement_rate": "82.9%", "students_placed": 30, "average_salary": "₹5.3 LPA", "highest_salary": "₹6.8 LPA", "recruiters": "Abbott, Jubilant Life Sciences"}
+          ],
+          "pharm_d_placements_2019_2023": [
+            {"year": 2023, "total_students": 35, "placement_rate": "85.7%", "students_placed": 30, "average_salary": "₹7.5 LPA", "highest_salary": "₹10.0 LPA", "recruiters": "Apollo Hospitals, Medanta"},
+            {"year": 2022, "total_students": 32, "placement_rate": "87.5%", "students_placed": 28, "average_salary": "₹7.2 LPA", "highest_salary": "₹9.8 LPA", "recruiters": "Fortis, Narayana Health"},
+            {"year": 2021, "total_students": 30, "placement_rate": "86.7%", "students_placed": 26, "average_salary": "₹6.8 LPA", "highest_salary": "₹9.5 LPA", "recruiters": "Manipal Hospitals, Max Healthcare"},
+            {"year": 2020, "total_students": 28, "placement_rate": "85.7%", "students_placed": 24, "average_salary": "₹6.5 LPA", "highest_salary": "₹9.3 LPA", "recruiters": "Cloudnine Hospitals, Medanta"},
+            {"year": 2019, "total_students": 25, "placement_rate": "88%", "students_placed": 22, "average_salary": "₹6.3 LPA", "highest_salary": "₹9.0 LPA", "recruiters": "[Not specified]"}
+          ],
+          "d_pharm_placements_2019_2023": [
+            {"year": 2023, "total_students": 55, "placement_rate": "81.8%", "students_placed": 45, "average_salary": "₹3.2 LPA", "highest_salary": "₹3.8 LPA", "recruiters": "Apollo Pharmacy, MedPlus"},
+            {"year": 2022, "total_students": 53, "placement_rate": "79.2%", "students_placed": 42, "average_salary": "₹3.1 LPA", "highest_salary": "₹3.6 LPA", "recruiters": "NetMeds, Trustwell Hospitals"},
+            {"year": 2021, "total_students": 50, "placement_rate": "80.0%", "students_placed": 40, "average_salary": "₹3.0 LPA", "highest_salary": "₹3.5 LPA", "recruiters": "Fortis, PharmEasy"},
+            {"year": 2020, "total_students": 48, "placement_rate": "79.2%", "students_placed": 38, "average_salary": "₹2.9 LPA", "highest_salary": "₹3.4 LPA", "recruiters": "MedLife, Government Health Dept."},
+            {"year": 2019, "total_students": 45, "placement_rate": "80.0%", "students_placed": 36, "average_salary": "₹2.8 LPA", "highest_salary": "₹3.3 LPA", "recruiters": "Cloudnine Pharmacy, Lifecare"}
+          ]
+        },
+        "shree_devi_college_of_hotel_management": {
+          "statistic": "Confirms the '100% placement record till date' found in the file.",
+          "recruiters_listed": [
+            "Jumeirah Beach Resort-Dubai",
+            "Chicago Beach Resort",
+            "SAS Raddison-Muscat",
+            "The Oberoi-Saudi Arabia",
+            "Raj Vilas-Jaipur",
+            "Le-Meridien-New Delhi & Cochin",
+            "Taj Residency",
+            "Leela Palace & The Inter Continental-Goa",
+            "The Oberoi-Bangalore",
+            "Indian Airlines"
+          ]
+        },
+        "shree_devi_college_bba_bca": {
+          "summary": "Placement information is contradictory based on student reviews. The official college website's placement page is a placeholder.",
+          "reviews_2022_2023_batches": "Reviews from 2022 (BCA) and 2023 (BBA) batches state 'There are no placements' or 'We didn't have placements'.",
+          "reviews_2020_batches": "Reviews from 2020 (BBA & BCA) batches state 'Most of us get placed' and 'Many MNC companies come here for recruitment'."
+        },
+        "shree_devi_college_of_nursing": {
+          "summary": "No specific placement statistics or year-wise data were found in the web search."
+        }
+      }
+    }
+  }
+}

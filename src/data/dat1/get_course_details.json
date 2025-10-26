@@ -1,0 +1,254 @@
+{
+  "shreeDeviEducationTrust": {
+    "kenjarCampus": {
+      "location": "Airport Road, Kenjar, Mangalore – 574 142",
+      "colleges": [
+        {
+          "collegeName": "Shree Devi Institute of Technology (SDIT)",
+          "affiliatedUniversity": "Visvesvaraya Technological University (VTU)",
+          "departments": [
+            {
+              "programName": "Computer Science & Engineering",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "Information Science and Engineering",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "Artificial Intelligence & Data Science",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "Electronics & Communication Engineering",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "Mechanical Engineering",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "Civil Engineering",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "Aeronautical Engineering",
+              "level": "Undergraduate (B.E.)"
+            },
+            {
+              "programName": "M.Tech - Construction Technology",
+              "level": "Postgraduate"
+            },
+            {
+              "programName": "Master of Business Administration (MBA)",
+              "level": "Postgraduate"
+            },
+            {
+              "programName": "Master of Computer Application (MCA)",
+              "level": "Postgraduate"
+            },
+            {
+              "programName": "Research Centre (Ph.D)",
+              "level": "Doctoral"
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi College of Pharmacy",
+          "affiliatedUniversity": "Rajiv Gandhi University of Health Sciences, Bangalore",
+          "departments": [
+            {
+              "programName": "Bachelor of Pharmacy (B.Pharm)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Master of Pharmacy (M.Pharm)",
+              "level": "Postgraduate",
+              "specializations": [
+                "Pharmaceutics",
+                "Pharmacology",
+                "Quality Assurance"
+              ]
+            },
+            {
+              "programName": "Pharm D (Doctor of Pharmacy)",
+              "level": "Doctoral"
+            }
+          ]
+        }
+      ]
+    },
+    "mgRoadCampus": {
+      "location": "Ballalbagh / M.G. Road, Mangalore – 575 003",
+      "colleges": [
+        {
+          "collegeName": "Shree Devi College of Allied Health Sciences",
+          "affiliatedUniversity": "Rajiv Gandhi University of Health Sciences, Bangalore",
+          "departments": [
+            {
+              "programName": "B.Sc Medical Laboratory Technology (MLT)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "B.Sc Medical Imaging Technology (MIT)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "B.Sc Anaesthesia and Operation Theatre Technology (A&OTT)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "B.Sc Respiratory Care Technology (RCT)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "B.Sc Renal Dialysis Technology (RDT)",
+              "level": "Undergraduate"
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi College of Nursing",
+          "affiliatedUniversity": "Rajiv Gandhi University of Health Sciences, Bangalore",
+          "departments": [
+            {
+              "programName": "B.Sc. Nursing (Basic)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "M.Sc. Nursing",
+              "level": "Postgraduate",
+              "specializations": [
+                "Community Health Nursing",
+                "Medical-Surgical Nursing",
+                "Paediatric Nursing",
+                "Psychiatric Nursing",
+                "Obstetrics & Gynaecology Nursing"
+              ]
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi School of Nursing",
+          "affiliatedUniversity": "Karnataka State Diploma in Nursing Examination Board, Bangalore",
+          "departments": [
+            {
+              "programName": "General Nursing and Midwifery (GNM)",
+              "level": "Diploma"
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi College of Physiotherapy",
+          "affiliatedUniversity": "Rajiv Gandhi University of Health Sciences, Bangalore",
+          "departments": [
+            {
+              "programName": "Bachelor of Physiotherapy (B.P.T)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Master of Physiotherapy (M.P.T)",
+              "level": "Postgraduate"
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi College / Shree Devi College of Information Science",
+          "affiliatedUniversity": "Mangalore University",
+          "departments": [
+            {
+              "programName": "Bachelor of Business Administration (BBA / BBM)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Bachelor of Computer Applications (BCA)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Bachelor of Commerce (B.Com)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Bachelor of Human Resource Development (BHRD)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Advanced Diploma in Aviation and Hospitality Management (with BBA/B.Com)",
+              "level": "Diploma"
+            },
+            {
+              "programName": "Advanced Diploma in Supply Chain and Logistic Management (with BBA/B.Com)",
+              "level": "Diploma"
+            },
+            {
+              "programName": "Advanced Diploma in Data Analytics, AI and Cyber Security (with BCA/BBA/B.Com)",
+              "level": "Diploma"
+            },
+            {
+              "programName": "Master of Social Work (M.S.W.)",
+              "level": "Postgraduate"
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi College of Fashion Design",
+          "affiliatedUniversity": "Mangalore University",
+          "departments": [
+            {
+              "programName": "B.Sc. in Fashion Design (B.Sc (F.D.))",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Diploma in Fashion Designing",
+              "level": "Diploma"
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi College of Hotel Management",
+          "affiliatedUniversity": "Mangalore University",
+          "departments": [
+            {
+              "programName": "Bachelor's Degree in Hospitality Science (B.H.S / BHM)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "B.Sc. in Food Technology",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "B.Sc. in Food Nutrition and Dietetics",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Advanced Diploma in Aviation and Hospitality Management (with B.H.S.)",
+              "level": "Diploma"
+            },
+            {
+              "programName": "Diploma in Hotel Management",
+              "level": "Diploma"
+            }
+          ]
+        },
+        {
+          "collegeName": "Shree Devi College of Interior Design",
+          "affiliatedUniversity": "Mangalore University",
+          "departments": [
+            {
+              "programName": "B.Sc. in Interior Design and Decoration (B.Sc. ID & D)",
+              "level": "Undergraduate"
+            },
+            {
+              "programName": "Diploma in Interior Design",
+              "level": "Diploma"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "get_hostel_rules": {
+    "kenjar_campus": {
+      "source_note": "Information for Kenjar Campus (primarily Shree Devi Institute of Technology - SDIT). The provided dataset states its own hostel data (e.g., in entries 'gen_Hos_Rul_2', 'gen_Hos_Boy_12') consists of 'placeholders' and 'approximations' that must be verified. The following combines dataset information with details from a web search.",
+      "rules": [
+        {
+          "rule": "General Conduct",
+          "detail": "General rules are in place regarding noise levels, common area usage, and guest policies."
+        },
+        {
+          "rule": "Timings and Policies",
+          "detail": "Hostel policies include a lights-out time and a visitor policy."
+        },
+        {
+          "rule": "Mandatory Stay (First Years)",
+          "detail": "First-year students who are not from Karnataka are required to stay in the hostel."
+        },
+        {
+          "rule": "Mandatory Stay (Boys)",
+          "detail": "If boys opt for the hostel, they are required to stay for 2 years compulsorily."
+        },
+        {
+          "rule": "Mess Policy",
+          "detail": "The hostel has a mess menu rotation system."
+        },
+        {
+          "rule": "Emergency Procedures",
+          "detail": "An emergency contact procedure is in place."
+        }
+      ],
+      "facilities_and_amenities": [
+        {
+          "type": "Accommodation",
+          "detail": "Separate hostels are available for boys and girls."
+        },
+        {
+          "type": "Room Occupancy",
+          "detail": "Options for single, double, and triple occupancy rooms are available. Some reviews mention 3 members per room."
+        },
+        {
+          "type": "Room Furnishings",
+          "detail": "Rooms are well-furnished with essential amenities like beds, study tables, chairs, and wardrobes."
+        },
+        {
+          "type": "Utilities",
+          "detail": "Rooms have attached bathrooms, regular cleaning services, and round-the-clock hot water."
+        },
+        {
+          "type": "Food",
+          "detail": "A hygienic mess provides nutritious meals. Food quality is described as 'not absolutely good' by one review."
+        },
+        {
+          "type": "Internet (Conflicting Info)",
+          "detail": "There are conflicting reports on Wi-Fi. Some sources state high-speed internet is provided, while a student review claims it is lacking."
+        },
+        {
+          "type": "Recreation",
+          "detail": "Common areas include TV rooms, lounges, and spaces for indoor games and fitness equipment. An information center with access to TV and newspapers is also mentioned."
+        },
+        {
+          "type": "Other Services",
+          "detail": "Convenient laundry facilities are available. Shuttle services (college buses) are provided for transport, potentially at an extra charge."
+        }
+      ],
+      "administration_and_security": [
+        {
+          "type": "Security",
+          "detail": "The hostel provides 24/7 security, including CCTV surveillance and security personnel."
+        },
+        {
+          "type": "Warden",
+          "detail": "A hostel warden is present to manage day-to-day operations, assist students, and maintain discipline."
+        },
+        {
+          "type": "Support",
+          "detail": "Medical assistance and emergency services are readily available."
+        }
+      ]
+    },
+    "mg_road_campus": {
+      "source_note": "Information for M.G. Road Campus (also referred to as Ballalbagh). This campus hosts multiple colleges (Physiotherapy, Hotel Management, Nursing, etc.). Details are synthesized from the dataset and web search results.",
+      "rules": [
+        {
+          "rule": "Curfew",
+          "detail": "All hostelers are compulsorily required to be inside the hostel by 6:30 PM sharp."
+        },
+        {
+          "rule": "Leave Policy",
+          "detail": "Students are required to take permission from their respective class coordinator and the principal if they need to go home."
+        },
+        {
+          "rule": "Mandatory Stay (Review)",
+          "detail": "According to one review, boys are to stay in the hostel for 2 years compulsorily, and girls are required to stay for the whole tenure of the course."
+        }
+      ],
+      "facilities_and_amenities": [
+        {
+          "type": "Accommodation",
+          "detail": "Separate hostel facilities are provided for boys and girls. Hostels are described as spacious and are located on campus or within accessible distance."
+        },
+        {
+          "type": "Room Occupancy",
+          "detail": "Rooms accommodate 3 or 4 students per room."
+        },
+        {
+          "type": "Room Furnishings",
+          "detail": "Rooms are described as comfortable, with attached bathrooms/washrooms, and adequate furniture."
+        },
+        {
+          "type": "Utilities",
+          "detail": "Facilities include round-the-clock hot water, hot and cold water filters, and regular cleaning services."
+        },
+        {
+          "type": "Food",
+          "detail": "A hygienic mess hall provides nutritious food. Food quality is rated as 'average' to 'good and hygienic'."
+        },
+        {
+          "type": "Internet",
+          "detail": "One listing mentions free Wi-Fi access in all rooms and common areas."
+        },
+        {
+          "type": "Recreation",
+          "detail": "An information center with access to TV and newspapers is available. Common spaces for socializing and relaxation are also mentioned."
+        },
+        {
+          "type": "Other Services",
+          "detail": "A fully equipped kitchen is mentioned in one source."
+        }
+      ],
+      "administration_and_security": [
+        {
+          "type": "Security",
+          "detail": "The hostel provides 24/7 security with CCTV surveillance."
+        },
+        {
+          "type": "Warden",
+          "detail": "A hostel Warden is responsible for discipline, maintenance of the buildings, and allotment of rooms."
+        }
+      ]
+    }
+  }
+}

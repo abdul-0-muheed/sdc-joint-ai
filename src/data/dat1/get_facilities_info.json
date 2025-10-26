@@ -1,0 +1,51 @@
+{
+  "college_name": "Shree Devi Institute of Technology (SDIT)",
+  "location": "Mangalore, Karnataka, India",
+  "campuses": [
+    {
+      "name": "Airport Road Campus (Kenjar)",
+      "address": "Airport Road, Kenjar, Mangalore - 574142, Karnataka State, India",
+      "facilities": {
+        "hostels": {
+          "description": "Separate hostels for boys and girls with hygienic food and basic amenities.",
+          "note": "Specific details like capacity, room types, and additional facilities are not available in the provided text."
+        },
+        "canteen": {
+          "description": "A canteen is available on campus providing a variety of food options.",
+          "note": "Specific details like operating hours, food types, and vendors are not available in the provided text."
+        },
+        "library": {
+          "description": "Central library with e-resources and Helinet access.",
+          "note": "Specific details like physical/digital copy counts, access hours, and subscription names are estimated or require verification according to the dataset notes."
+        },
+        "transport": {
+          "description": "A bus fleet is available covering various routes within Mangalore and its surrounding areas.",
+          "note": "Specific route details, schedules, and coverage are not available in the provided text."
+        },
+        "sports_medical": {
+          "description": "Facilities for both indoor and outdoor sports are available along with a health center providing first-aid.",
+          "note": "Specific details about sports equipment, court/field types, and health center services are not available in the provided text."
+        },
+        "lecture_halls": {
+          "description": "Lecture halls are present on the M.G. Road Campus (as per dataset entries like gen_Cam_Lec_1, gen_Cam_Lec_661). It is highly likely similar facilities exist on the Kenjar campus, although not explicitly detailed in the provided text for this specific campus.",
+          "note": "Specific details like room numbers, floors, and equipment types for the Kenjar campus are estimated or require verification according to the dataset notes."
+        },
+        "other": {
+          "description": "Wi-Fi is available with varying coverage across the campus.",
+          "note": "Specific details about Wi-Fi speed, coverage areas, and access policies are not available in the provided text."
+        }
+      }
+    },
+    {
+      "name": "Ballabagh Campus",
+      "address": "Shree Devi College, Ballalbagh, Mangalore - 575003, Karnataka, India",
+      "facilities": {
+        "general": {
+          "description": "The dataset confirms the existence of the Ballabagh campus under the Shree Devi Education Trust. However, specific details about facilities on this campus are not available in the provided text.",
+          "note": "Facilities mentioned (hostel, canteen, library, transport, sports, medical, lecture halls) are known to exist for the institution generally (based on Kenjar campus info and trust overview), but specific details for the Ballabagh campus require further verification or information not present in the provided dataset."
+        }
+      }
+    }
+  ],
+  "note": "Facility details for the Kenjar campus are primarily compiled from the provided text dataset (doc_campus_facilities and related entries). Specific details for the Ballabagh campus are limited in the provided text. The information about two campuses is derived from the address mentioned in the document titles (Airport Road, Kenjar) and the Trust Office address on M.G. Road, as well as the clarification provided. Some details are estimated or templated micro-details requiring verification."
+}

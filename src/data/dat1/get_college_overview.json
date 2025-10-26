@@ -1,0 +1,38 @@
+{
+  "college_name": "Shree Devi Institute of Technology (SDIT)",
+  "location": "Mangalore, Karnataka, India",
+  "campus": [
+    {
+      "name": "Airport Road Campus (Kenjar)",
+      "address": "Airport Road, Kenjar, Mangalore - 574142, Karnataka State, India",
+      "info": "The main campus is located at Airport Road, Kenjar [[1]]. It is set amidst the surroundings of suburban Mangalore [[4]]."
+    },
+    {
+      "name": "Ballabagh Campus",
+      "address": "Ballalbagh, Mangalore - 575003, Karnataka, India",
+      "info": "The Shree Devi Education Trust also manages a location at Ballalbagh, Mangalore [[8]]."
+    }
+  ],
+  "overview": {
+    "history": "Established in 1992, the Shree Devi Education Trust(R.) was founded by a team of enlightened educationalists led by Sri A. Sadananda Shetty, a recipient of the Dakshina Kannada Rajyotsava award. It has grown to manage multiple professional colleges across various disciplines, including the Shree Devi Institute of Technology.",
+    "vision": "To provide quality education to enable the youth to become efficient professionals as well as upright citizens. The Trust aims to provide students with a rich and intense learning environment so that they acquire the knowledge and skills needed for succeeding in their professional as well as personal lives.",
+    "mission": "The mission is to provide excellence in engineering education and holistic development, managed under the Shree Devi Education Trust. It aims to be a strong base for numerous professional colleges catering to various streams."
+  },
+  "contact": {
+    "kenjar_campus": {
+      "phone": "+91 (824) 2254104, +91 (824) 2254102",
+      "address": "Airport Road, Kenjar, Mangalore - 574142 [[2]]"
+    },
+    "ballabagh_campus": {
+      "address": "Shree Devi College, Ballalbagh, Mangalore - 575003 [[8]]"
+    },
+    "trust_office": {
+      "phone": "+91-824-2457937, 2456501, 2456511",
+      "mobile": "+91 98440 45622, +91 91411 81260, +91 91411 81261",
+      "fax": "+91-824-2451108",
+      "email": "info@sdc.ac.in",
+      "address": "M.G. Road, Mangalore - 575 003"
+    }
+  },
+  "note": "This overview is compiled from available text fragments and search results. Vision and Mission statements are derived from multiple pages and may be slightly paraphrased or summarized."
+}
