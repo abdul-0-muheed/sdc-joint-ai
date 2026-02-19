@@ -1,0 +1,70 @@
+===== Changes Log =====
+Date: 2026-02-19
+
+--- File Modified: Dockerfile ---
+Location: e:\sdc-joint.ai\backend\sdc-joint-ai\Dockerfile
+
+What was changed:
+- Completely rewrote the Dockerfile from scratch.
+
+Previous state:
+- Used ghcr.io/astral-sh/uv:python3.13-bookworm-slim as base image (UV package manager).
+- WORKDIR was /app.
+- Dependencies installed via `uv sync --locked` using pyproject.toml and uv.lock.
+- Ran with `uv run src/agent.py start`.
+- Had a non-privileged appuser setup.
+- Had a pre-download step: `uv run src/agent.py download-files`.
+
+New state:
+- Base image: python:3.13-slim-bookworm (standard Python image, no UV).
+- WORKDIR: /sdc-joint-ai (as requested).
+- Creates a Python virtual environment: `python -m venv venv`.
+- Installs dependencies with: `pip install -r requirement.txt`.
+- Runs the app with: `venv/bin/python src/agent.py start`.
+- Removed the non-privileged user setup for simplicity.
+- Removed the `download-files` pre-download step.
+- Kept build dependencies (gcc, g++, python3-dev) for native extensions.
+
+--- AWS Deployment Guide Created (Console UI Version) ---
+Location: Artifact file (aws_deployment_guide.md)
+
+What was created:
+- A complete step-by-step AWS deployment guide using AWS Console UI (web).
+- Uses ECS Fargate for serverless container deployment.
+- Steps: Create ECR repo → Push Docker image → Create ECS cluster →
+  Create Task Definition with env vars → Create Service → Verify logs.
+- Only terminal commands needed: Docker build & push (4 commands).
+- Estimated cost: ~$35-45/month.
+
+--- SQL Schema File Created ---
+Location: e:\sdc-joint.ai\backend\sdc-joint-ai\supabase_schema.sql
+
+What was created:
+- Complete Supabase SQL schema with 6 tables:
+  1. helpdesk_requests (requester_name, requester_email, phone_number, request_text, status)
+  2. student_complaints (student_name, student_email, department, complaint_text, status)
+  3. clubs (club_name, description, head_of_club, contact_email)
+  4. club_programs (club_id FK->clubs, program_name, description, program_date, start_time, end_time, venue)
+  5. events (event_name, description, event_date, start_time, end_time, venue, department, registrationlink)
+  6. exam_timetable (semester, subject_name, exam_date, exam_time, venue, department)
+- All tables have RLS (Row Level Security) policies enabled.
+- Public read + helpdesk/complaints have public insert.
+- Everything else requires authenticated user for insert/update/delete.
+- No storage buckets used.
+
+--- Skill/Workflow File Created ---
+Location: e:\sdc-joint.ai\.agent\workflows\supabase-schema.md
+- Step-by-step instructions for running the SQL in Supabase SQL Editor.
+- Column reference documentation for all 6 tables.
+
+--- Example Seed Data Added ---
+Location: e:\sdc-joint.ai\backend\sdc-joint-ai\supabase_schema.sql (bottom of file)
+
+What was added:
+- Sample INSERT data for all 6 tables:
+  - 3 helpdesk requests (Pending, In Progress, Resolved)
+  - 4 student complaints (across CSE, ECE, MBA, Civil)
+  - 5 clubs (Coding, Robotics, Literary, Sports, Cultural)
+  - 6 club programs (linked to clubs above)
+  - 5 events (Tech Fest, Placement Drive, Science Day, Sports Day, MBA Visit)
+  - 8 exam timetable entries (across Sem 2, 4, 6 for multiple departments)
