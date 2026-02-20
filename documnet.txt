@@ -121,3 +121,17 @@ Fix:
   CPU-only torch is ~200MB vs ~4GB with CUDA.
 - requirement.txt: Commented out torch and torchaudio lines so pip
   doesn't re-download the CUDA versions from standard PyPI.
+
+--- Fix: Missing LiveKit Plugins ---
+Date: 2026-02-20
+File Modified: requirement.txt
+
+Problem:
+- Agent crashes with: ModuleNotFoundError: No module named 'livekit.plugins.elevenlabs'
+- agent.py imports livekit.plugins.elevenlabs (line 25) and livekit.plugins.assemblyai (line 26)
+  but neither package was listed in requirement.txt.
+
+Fix:
+- Added livekit-plugins-assemblyai==1.2.15 to requirement.txt
+- Added livekit-plugins-elevenlabs==1.2.15 to requirement.txt
+- Version 1.2.15 matches the other livekit-plugins packages already listed.
