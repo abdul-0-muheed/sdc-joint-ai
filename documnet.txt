@@ -146,19 +146,44 @@ Problem:
 
 Fix:
 - Added supabase==2.22.1 to requirement.txt (matching locally installed version).
+
+--- Fix: Complete requirement.txt Regeneration from pip freeze ---
+Date: 2026-02-20
+File Modified: requirement.txt
+
+Problem:
+- requirement.txt was incomplete, missing ~15 packages that supabase and other
+  libraries depend on (supabase-auth, supabase-functions, storage3, realtime,
+  postgrest, cryptography, accelerate, langchain-openai, tiktoken, rank-bm25, etc.)
+
+Fix:
+- Ran `pip freeze` from local venv to get ALL 194 installed packages.
+- Regenerated requirement.txt with the complete list.
+- Excluded: pyreadline3 (Windows-only), onnxruntime-gpu (no GPU on EC2),
+  editable install (-e git+...).
+- torch/torchaudio remain commented out (installed separately in Dockerfile
+  from PyTorch CPU index to avoid ~4GB NVIDIA CUDA downloads).
 --- Fix: Vercel Build TypeScript Error (chat-transcript.tsx) ---
 Date: 2026-02-20
-File Modified: e:\sdc-joint.ai\frontend\sdc-joint-frontend\components\app\chat-transcript.tsx
+Files Modified:
+  - components/app/chat-transcript.tsx
+  - components/app/preconnect-message.tsx
+  - components/app/view-controller.tsx
+  - components/app/session.tsx
+  - components/app/session-view.tsx
+  - components/livekit/agent-control-bar/chat-input.tsx
 
 Problem:
 - Vercel build failed with TypeScript type error at line 121.
 - Error: Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
-- The `ease: 'easeOut'` in CONTAINER_MOTION_PROPS was inferred as generic `string`
+- The `ease: 'easeOut'` in motion props was inferred as generic `string`
   by TypeScript, but Framer Motion (motion/react) expects the specific literal type.
-- Also found typo: `stagerDelay` (invalid property, should be `staggerDelay`).
+- Also found typo in chat-transcript.tsx: `stagerDelay` (invalid property).
+- Also found `className` prop passed to ChatInput but not in its interface.
 
 Fix:
-- Added `as const` to `ease: 'easeOut' as const` in both hidden and visible variants.
+- Added `as const` to all `ease:` string values across all 5 component files.
 - Added `as const` to `initial`, `animate`, and `exit` string values.
-- Removed the invalid `stagerDelay: 0.2` property (typo, not a valid Framer Motion prop).
+- Removed the invalid `stagerDelay: 0.2` property in chat-transcript.tsx.
+- Added `className?: string` to ChatInputProps interface in chat-input.tsx.
 - This ensures TypeScript infers exact literal types instead of generic `string`.
