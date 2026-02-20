@@ -135,3 +135,30 @@ Fix:
 - Added livekit-plugins-assemblyai==1.2.15 to requirement.txt
 - Added livekit-plugins-elevenlabs==1.2.15 to requirement.txt
 - Version 1.2.15 matches the other livekit-plugins packages already listed.
+
+--- Fix: Missing Supabase Dependency ---
+Date: 2026-02-20
+File Modified: requirement.txt
+
+Problem:
+- Agent crashes with: ModuleNotFoundError: No module named 'supabase'
+- agent.py imports supabase on line 27 but it was missing from requirement.txt.
+
+Fix:
+- Added supabase==2.22.1 to requirement.txt (matching locally installed version).
+--- Fix: Vercel Build TypeScript Error (chat-transcript.tsx) ---
+Date: 2026-02-20
+File Modified: e:\sdc-joint.ai\frontend\sdc-joint-frontend\components\app\chat-transcript.tsx
+
+Problem:
+- Vercel build failed with TypeScript type error at line 121.
+- Error: Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+- The `ease: 'easeOut'` in CONTAINER_MOTION_PROPS was inferred as generic `string`
+  by TypeScript, but Framer Motion (motion/react) expects the specific literal type.
+- Also found typo: `stagerDelay` (invalid property, should be `staggerDelay`).
+
+Fix:
+- Added `as const` to `ease: 'easeOut' as const` in both hidden and visible variants.
+- Added `as const` to `initial`, `animate`, and `exit` string values.
+- Removed the invalid `stagerDelay: 0.2` property (typo, not a valid Framer Motion prop).
+- This ensures TypeScript infers exact literal types instead of generic `string`.
