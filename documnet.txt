@@ -104,3 +104,20 @@ Issues fixed:
 4. Dockerfile: Added libportaudio2 and libsndfile1 to apt-get install
    - Required by sounddevice Python package for audio I/O on Linux.
 
+--- Fix: Disk Space Error (torch CUDA → CPU-only) ---
+Date: 2026-02-20
+Files Modified: Dockerfile, requirement.txt
+
+Problem:
+- Docker build failed with "No space left on device" on 20GB EC2 disk.
+- Standard PyPI torch==2.9.0 downloads ~4GB of NVIDIA CUDA libraries
+  (nvidia-cublas, nvidia-cudnn, nvidia-cusparse, triton, etc.)
+  that are unnecessary on a CPU-only EC2 t3.small instance.
+
+Fix:
+- Dockerfile: Added a separate pip install step BEFORE requirement.txt that
+  installs torch==2.9.0+cpu and torchaudio==2.9.0+cpu from PyTorch's
+  CPU-only index (https://download.pytorch.org/whl/cpu).
+  CPU-only torch is ~200MB vs ~4GB with CUDA.
+- requirement.txt: Commented out torch and torchaudio lines so pip
+  doesn't re-download the CUDA versions from standard PyPI.

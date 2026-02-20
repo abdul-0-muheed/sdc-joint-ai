@@ -26,6 +26,7 @@ COPY requirement.txt .
 RUN python -m venv venv \
   && . venv/bin/activate \
   && pip install --no-cache-dir --upgrade pip \
+  && pip install --no-cache-dir torch==2.9.0+cpu torchaudio==2.9.0+cpu --index-url https://download.pytorch.org/whl/cpu \
   && pip install --no-cache-dir -r requirement.txt
 
 # Copy all application files
