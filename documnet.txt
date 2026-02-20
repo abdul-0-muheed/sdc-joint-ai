@@ -68,3 +68,39 @@ What was added:
   - 6 club programs (linked to clubs above)
   - 5 events (Tech Fest, Placement Drive, Science Day, Sports Day, MBA Visit)
   - 8 exam timetable entries (across Sem 2, 4, 6 for multiple departments)
+
+--- EC2 Deployment Guide Created ---
+Date: 2026-02-20
+Location: e:\sdc-joint.ai\backend\sdc-joint-ai\EC2_DEPLOYMENT_GUIDE.md
+
+What was created:
+- Complete step-by-step guide to deploy the LiveKit Agents backend to AWS EC2 using Docker.
+- Covers: EC2 instance launch (t3.small), SSH connection (Windows PowerShell & PuTTY),
+  Docker installation (Amazon Linux & Ubuntu), Git clone, .env file creation,
+  Docker build & run, container management, and a quick update script.
+- Security Group rules: SSH (22), LiveKit WebSocket (7880), HTTPS (443).
+- Production run with --restart unless-stopped for auto-recovery.
+- Includes update-agent.sh script for one-command code deployments.
+- Cost estimate: ~$18-22/month.
+- Security best practices and troubleshooting table included.
+
+--- Docker Build Fixes for EC2 (CPU-only) ---
+Date: 2026-02-20
+Files Modified: requirement.txt, Dockerfile
+
+Issues fixed:
+1. torchaudio==2.9.0+cpu → torchaudio==2.9.0
+   - The +cpu suffix is only available from PyTorch's custom index URL, not standard PyPI.
+   - Changed to standard version which works on both CPU and GPU machines.
+
+2. Removed onnxruntime-gpu==1.23.0
+   - EC2 t3.small has no GPU/CUDA, so gpu variant is unnecessary and may fail.
+   - onnxruntime==1.23.1 (CPU version) is already listed and sufficient.
+
+3. Removed pyreadline3==3.5.4
+   - This is a Windows-only package (readline replacement for Windows).
+   - On Linux (Docker), readline is built-in — this package fails or is useless.
+
+4. Dockerfile: Added libportaudio2 and libsndfile1 to apt-get install
+   - Required by sounddevice Python package for audio I/O on Linux.
+

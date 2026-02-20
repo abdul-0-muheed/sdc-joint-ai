@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
   gcc \
   g++ \
   python3-dev \
+  libportaudio2 \
+  libsndfile1 \
   && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
