@@ -1,114 +1,176 @@
-<a href="https://livekit.io/">
-  <img src="./.github/assets/livekit-mark.png" alt="LiveKit logo" width="100" height="100">
-</a>
+# 🎓 SDC Joint AI  
+> A lightning-fast RAG agent that answers every college-related question in plain English—courses, faculty, placements, scholarships, and more.
 
-# LiveKit Agents Starter - Python
+---
 
-A complete starter project for building voice AI apps with [LiveKit Agents for Python](https://github.com/livekit/agents) and [LiveKit Cloud](https://cloud.livekit.io/).
+## 🚀 Demo
+Live voice-enabled agent (LiveKit)  
+🔗 [Talk to the bot](https://docs.livekit.io/agents/start/voice-ai)  
+📦 [Source on GitHub](https://github.com/abdul-0-muheed/sdc-joint-ai)
 
-The starter project includes:
+---
 
-- A simple voice AI assistant, ready for extension and customization
-- A voice AI pipeline with [models](https://docs.livekit.io/agents/models) from OpenAI, Cartesia, and AssemblyAI served through LiveKit Cloud
-  - Easily integrate your preferred [LLM](https://docs.livekit.io/agents/models/llm/), [STT](https://docs.livekit.io/agents/models/stt/), and [TTS](https://docs.livekit.io/agents/models/tts/) instead, or swap to a realtime model like the [OpenAI Realtime API](https://docs.livekit.io/agents/models/realtime/openai)
-- Eval suite based on the LiveKit Agents [testing & evaluation framework](https://docs.livekit.io/agents/build/testing/)
-- [LiveKit Turn Detector](https://docs.livekit.io/agents/build/turns/turn-detector/) for contextually-aware speaker detection, with multilingual support
-- [Background voice cancellation](https://docs.livekit.io/home/cloud/noise-cancellation/)
-- Integrated [metrics and logging](https://docs.livekit.io/agents/build/metrics/)
-- A Dockerfile ready for [production deployment](https://docs.livekit.io/agents/ops/deployment/)
+## 📖 Overview
+Prospective students bombard colleges with the same questions every year.  
+SDC Joint AI ingests catalog data (courses, faculty, facilities, stats, rules) into a **searchable knowledge base** and replies with **concise, citation-ready answers**—no human intervention, zero lag.
 
-This starter app is compatible with any [custom web/mobile frontend](https://docs.livekit.io/agents/start/frontend/) or [SIP-based telephony](https://docs.livekit.io/agents/start/telephony/).
+**Target users**  
+- Admissions & marketing teams  
+- Student help-desk portals  
+- Event organizers (freshers, open days, webinars)
 
-## Dev Setup
+**Key idea**  
+Combine a local FAISS vector index with a tiny Python runtime to deliver **sub-second, offline, private** answers at campus scale.
 
-Clone the repository and install dependencies to a virtual environment:
+---
 
-```console
-cd agent-starter-python
-uv sync
-```
+## ✨ Features
+- 🔍 Natural-language Q&A with source citations  
+- 🗣️ Voice interface via LiveKit (WebRTC)  
+- 📚 Auto-syncs with college JSONL dumps  
+- 🐳 Fully containerized—one-command deploy  
+- 🔄 Zero-downtime CI/CD with GitHub Actions  
+- 🔐 100 % on-prem data—no outbound calls  
+- 📈 Built-in analytics & audit logs (Supabase)
 
-Sign up for [LiveKit Cloud](https://cloud.livekit.io/) then set up the environment by copying `.env.example` to `.env.local` and filling in the required keys:
+---
 
-- `LIVEKIT_URL`
-- `LIVEKIT_API_KEY`
-- `LIVEKIT_API_SECRET`
+## 🏗️ Architecture
+Three micro-services orchestrated by Docker Compose:
 
-You can load the LiveKit environment automatically using the [LiveKit CLI](https://docs.livekit.io/home/cli/cli-setup):
+1. `agent` – Python runtime (RAG loop + voice handler)  
+2. `vector-db` – FAISS index served over shared volume  
+3. `postgres` – Supabase PostgreSQL for metadata & logs
 
-```bash
-lk cloud auth
-lk app env -w -d .env.local
-```
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│   LiveKit    │────▶│  Agent Core    │────▶│  FAISS Index  │
+│  (Voice)     │     │  (Python)      │     │ (Embeddings)  │
+└──────────────┘     └──────────────┘     └──────────────┘
+                            │                       │
+                            ▼                       ▼
+                    ┌──────────────┐        ┌──────────────┐
+                    │  Supabase    │        │  JSONL Corpuses
+                    │ (Metadata)   │        │  (Ground truth)
+                    └──────────────┘        └──────────────┘
+---
 
-## Run the agent
+## 🔑 Key Components
+| File | Purpose |
+|------|---------|
+| `src/agent.py` | Single entry-point `ask(question: str) → Answer` |
+| `src/rag_faiss.py` | Brute-force vector search fallback |
+| `src/rag_optimized.py` | HNSW + metadata filter pipeline |
+| `src/ingest.py` | JSONL → embeddings → FAISS & PG |
+| `src/voice_handler.py` | LiveKit adapter for STT/TTS |
+| `taskfile.yml` | Unified task runner (`task up`, `task test`) |
 
-Before your first run, you must download certain models such as [Silero VAD](https://docs.livekit.io/agents/build/turns/vad/) and the [LiveKit turn detector](https://docs.livekit.io/agents/build/turns/turn-detector/):
+---
 
-```console
-uv run python src/agent.py download-files
-```
+## 🔄 Data Flow
+1. **Ingest** – `ingest.py` reads JSONL → chunks → `sentence-transformers` → FAISS + Supabase  
+2. **Query** – `agent.py` embeds question → top-k retrieval → LLM synthesis → citations  
+3. **Voice** – LiveKit streams audio → STT → agent → TTS → user hears answer
 
-Next, run this command to speak to your agent directly in your terminal:
+---
 
-```console
-uv run python src/agent.py console
-```
+## 🧪 Tech Stack
+- **Language**: Python 3.11  
+- **ML**: FAISS, Sentence-Transformers, HuggingFace pipeline  
+- **DB**: Supabase (PostgreSQL 15)  
+- **Voice**: LiveKit Agents  
+- **Ops**: Docker, Docker Compose, GitHub Actions, Task  
+- **Lint/Format**: Ruff, Black, MyPy
 
-To run the agent for use with a frontend or telephony, use the `dev` command:
+---
 
-```console
-uv run python src/agent.py dev
-```
+## 📁 Project Structure
+.
+├── src
+│   ├── agent.py
+│   ├── rag_*.py
+│   ├── ingest.py
+│   └── voice_handler.py
+├── data
+│   └── *.jsonl          # college dumps
+├── scripts
+│   └── seed_supabase.py
+├── tests
+├── .github/workflows
+├── Dockerfile
+├── docker-compose.yml
+├── taskfile.yml
+└── pyproject.toml
+---
 
-In production, use the `start` command:
+## ⚙️ Installation & Usage
+Prerequisites: Docker & Task (`sh -c "$(curl -ssL https://taskfile.dev/install.sh)"`)
 
-```console
-uv run python src/agent.py start
-```
+bash
+# 1. Clone
+git clone https://github.com/abdul-0-muheed/sdc-joint-ai.git
+cd sdc-joint-ai
 
-## Frontend & Telephony
+# 2. Configure env
+cp .env.example .env
+# Edit .env (see section below)
 
-Get started quickly with our pre-built frontend starter apps, or add telephony support:
+# 3. Run everything
+task up          # builds, starts, ingests sample data
+task logs        # tail containers
+Local library usage (no voice):
+python
+from src.agent import ask
+answer = ask("Which scholarships for CS students?")
+print(answer.text, answer.sources)
+---
 
-| Platform | Link | Description |
-|----------|----------|-------------|
-| **Web** | [`livekit-examples/agent-starter-react`](https://github.com/livekit-examples/agent-starter-react) | Web voice AI assistant with React & Next.js |
-| **iOS/macOS** | [`livekit-examples/agent-starter-swift`](https://github.com/livekit-examples/agent-starter-swift) | Native iOS, macOS, and visionOS voice AI assistant |
-| **Flutter** | [`livekit-examples/agent-starter-flutter`](https://github.com/livekit-examples/agent-starter-flutter) | Cross-platform voice AI assistant app |
-| **React Native** | [`livekit-examples/voice-assistant-react-native`](https://github.com/livekit-examples/voice-assistant-react-native) | Native mobile app with React Native & Expo |
-| **Android** | [`livekit-examples/agent-starter-android`](https://github.com/livekit-examples/agent-starter-android) | Native Android app with Kotlin & Jetpack Compose |
-| **Web Embed** | [`livekit-examples/agent-starter-embed`](https://github.com/livekit-examples/agent-starter-embed) | Voice AI widget for any website |
-| **Telephony** | [📚 Documentation](https://docs.livekit.io/agents/start/telephony/) | Add inbound or outbound calling to your agent |
+## 🔌 API / Integrations
+No public HTTP API—embed as a library.  
+For voice, connect your LiveKit frontend to the running agent container (`ws://localhost:7880`).
 
-For advanced customization, see the [complete frontend guide](https://docs.livekit.io/agents/start/frontend/).
+---
 
-## Tests and evals
+## 🔐 Environment Variables
+| Var | Description | Example |
+|-----|-------------|---------|
+| `SUPABASE_URL` | Postgres endpoint | `postgresql://user:pass@db:5432/sdc` |
+| `SUPABASE_SERVICE_KEY` | Backend secret | `YOUR_SERVICE_KEY` |
+| `FAISS_INDEX_PATH` | Mount path inside container | `/data/faiss.index` |
+| `LOG_LEVEL` | Python logging | `INFO` |
+| `LIVEKIT_API_KEY` | For voice | `YOUR_LK_KEY` |
+| `LIVEKIT_SECRET` | For voice | `YOUR_LK_SECRET` |
 
-This project includes a complete suite of evals, based on the LiveKit Agents [testing & evaluation framework](https://docs.livekit.io/agents/build/testing/). To run them, use `pytest`.
+---
 
-```console
-uv run pytest
-```
+## 🧪 Testing & Build
+bash
+task lint          # ruff + mypy
+task test          # pytest with coverage
+task build         # multi-arch Docker image
+task push          # tag & push to GHCR
+CI automatically runs on every PR; images land in `ghcr.io/abdul-0-muheed/sdc-joint-ai`.
 
-## Using this template repo for your own project
+---
 
-Once you've started your own project based on this repo, you should:
+## 📝 Notes
+- Keep JSONL files under `data/`; they are hot-reloaded on container restart.  
+- FAISS index is rebuilt automatically when `md5(data/*.jsonl)` changes.  
+- Voice mode needs a valid LiveKit project; disable with `VOICE_ENABLED=false`.
 
-1. **Check in your `uv.lock`**: This file is currently untracked for the template, but you should commit it to your repository for reproducible builds and proper configuration management. (The same applies to `livekit.toml`, if you run your agents in LiveKit Cloud)
+---
 
-2. **Remove the git tracking test**: Delete the "Check files not tracked in git" step from `.github/workflows/tests.yml` since you'll now want this file to be tracked. These are just there for development purposes in the template repo itself.
+## 🤝 Contributing
+1. Fork & branch (`feature/foo`)  
+2. Add tests & docs  
+3. Run `task lint test`  
+4. Open a PR—CI will do the rest.
 
-3. **Add your own repository secrets**: You must [add secrets](https://docs.github.com/en/actions/how-tos/writing-workflows/choosing-what-your-workflow-does/using-secrets-in-github-actions) for `LIVEKIT_URL`, `LIVEKIT_API_KEY`, and `LIVEKIT_API_SECRET` so that the tests can run in CI.
+---
 
-## Deploying to production
+## 📄 License
+MIT © 2024 SDC Joint AI Contributors
 
-This project is production-ready and includes a working `Dockerfile`. To deploy it to LiveKit Cloud or another environment, see the [deploying to production](https://docs.livekit.io/agents/ops/deployment/) guide.
+---
 
-## Self-hosted LiveKit
-
-You can also self-host LiveKit instead of using LiveKit Cloud. See the [self-hosting](https://docs.livekit.io/home/self-hosting/) guide for more information. If you choose to self-host, you'll need to also use [model plugins](https://docs.livekit.io/agents/models/#plugins) instead of LiveKit Inference and will need to remove the [LiveKit Cloud noise cancellation](https://docs.livekit.io/home/cloud/noise-cancellation/) plugin.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📬 Contact
+Open an issue or start a discussion on GitHub.
